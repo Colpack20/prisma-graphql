@@ -1,0 +1,21 @@
+{
+  "name": "prisma-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.8.1",
+    "apollo-server": "^2.18.1",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.8.0"
+  }
+}
